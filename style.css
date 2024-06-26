@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .container {
@@ -173,11 +174,15 @@ li {
 
 .affilliateImages {
     display: flex;
-    gap: 7rem;
+    gap: 4rem;
     width: 40%;
     margin: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.affilliateImages img {
+    width: 100%;
 }
 
 .topBenefits h2 {
@@ -598,9 +603,7 @@ footer {
         display: none;
     }
 
-    .affilliateImages {
-        width: 100%;
-    }
+   
 
     .heroText h2 {
         font-family: Montserrat;
