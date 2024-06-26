@@ -947,3 +947,25 @@ flex-direction: column;
     height: 40px;
 }
 }
+
+@media screen and (max-width: 376px) {
+
+    .herobtn button{
+        font-size: 13px;
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        margin-right: .5rem;
+    }
+    .heroText h2{
+        font-size: 25px;
+    }
+    .medicineText2 h5{
+        width: 70%;
+    }
+    .profileText h5{
+        width: 70%;
+    }
+    .optionText3 p{
+        width: 150%;
+    }
+}
